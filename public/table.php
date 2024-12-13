@@ -4,7 +4,7 @@ require_once 'db.php';
 
 try{
     //Query
-    $sql = "SELECT * FROM flowerr";
+    $sql = "SELECT * FROM flower";
 
     //Execute the query (call variable,query)
     $result = mysqli_query($connect,$sql);
@@ -89,7 +89,7 @@ function PrintTable($tableName,$connect){
         die($e->getMessage());
     }
 }
-printTable("flowerr",$connect);
+printTable("flower",$connect);
 printTable("books",$connect);    
 printTable("users",$connect);
 

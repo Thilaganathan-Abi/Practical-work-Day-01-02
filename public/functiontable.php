@@ -39,7 +39,7 @@ function PrintTable($tableName,$connect){
         die($e->getMessage());
     }
 }
-printTable("flowerr",$connect);
+printTable("flower",$connect);
 printTable("books",$connect);    
 printTable("users",$connect);
 

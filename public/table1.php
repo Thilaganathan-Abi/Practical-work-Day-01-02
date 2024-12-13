@@ -47,7 +47,7 @@ function PrintTable($tableName, $connect, $colnames = null) {
     }
 }
 
-PrintTable("flowerr", $connect);
+PrintTable("flower", $connect);
 PrintTable("users", $connect, ["username", "email"]);
 PrintTable("books", $connect);
 ?>
